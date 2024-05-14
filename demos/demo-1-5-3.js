@@ -38,4 +38,6 @@ matching = getMenuObjectById(menu, searchId)
     return null;
    }
 
-  
+  function DoesMenuObjectHaveId(menuObject, id) {
+    return (menuObject.id == id);  
+}
