@@ -1,3 +1,5 @@
+"use Strict"
+
 "use strict"
 
 const toyCategoryDropdown = document.getElementById("toyCategoryDropdown")
@@ -82,21 +84,17 @@ return[];
 
 
 
-function onToyListChange() {
-    console.log("onToyListChange");
+function onToyListChange() 
+    console.log("onToyListChange")
 
-    // Add your code here
-}
+
 
 function getToyByName(toyName){
     let selectedCategory = toyCategoryDropdown.value;
     let toys = getToysForCategoryCode(selectedCategory);
 
-    for (let i = 0; i < toys.length; i++) {
-        // Add your code here
-    }
+    for let 
 }
-
 
 
 // loop up selcted toy
@@ -117,3 +115,4 @@ toyAge.innerHTML = selectedToy.age_range;
 // show detail row
 showDetailRow();
 
+}
